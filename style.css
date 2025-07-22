@@ -1,0 +1,31 @@
+/* Gaya untuk seluruh halaman */
+body {
+    font-family: sans-serif; /* Coba ganti dengan: 'Courier New', 'Georgia' */
+    background-color: #f0f8ff; /* Coba ganti dengan kode warna lain, misal: #e6e6fa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Gaya untuk 'kartu' utama */
+.profile-card {
+    background-color: white;
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px; /* Membuat sudut melengkung */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Memberi efek bayangan */
+    text-align: center;
+}
+
+/* Gaya untuk gambar profil */
+img {
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    border: 5px solid #5f9ea0; /* Memberi bingkai pada gambar */
+}
+
+/* Gaya untuk link */
+a {
+    text-decoration: none; /* Menghilangkan garis bawah */
+    color: #1e90ff; /* Mengubah warna link */
+}
